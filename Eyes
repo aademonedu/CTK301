@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Eyes</title>
+  </head>
+  <ul>
+    <li> <a href=index.html> Index/Zoo </a> </li>
+    <li> <a href=teeth.html> Teeth  </li>
+    <li> <a href=Posters> Posters </li>
+
+</ul>
+  <body>
+    <h1>Eyes</h1>
+    <img src="eyes.JPEG" alt="Eyes">
+    <p>The image is a government poster made for the WPA Illinois Safety Division. The words say on the top "Save Your Eyes. Use Your Goggles." The art has a working man wearing goggles. </p>
+    <!-- Comment -->
+   
+  </body>
+</html>
