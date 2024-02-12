@@ -1,0 +1,46 @@
+/* CSS */
+.specialp {
+    color: #0000ff;
+    background-color: azure;
+  }
+
+#specialid {
+    color: aquamarine;
+}
+
+#divreal {
+    background-color: chocolate;
+    color: white;
+}
+
+#divh3 {
+    background-color: blueviolet;
+    color: yellowgreen;
+}
+
+#divh4 {
+    background-color: gold;
+    color:blueviolet;
+}
+
+.spanreal {
+    background-color: lightslategray;
+    color: darkorange;
+}
+
+h1{
+    color: firebrick;
+}
+
+a {
+    color:red;
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    color: yellow;
+}
+
