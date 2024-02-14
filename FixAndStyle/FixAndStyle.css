@@ -1,0 +1,52 @@
+/* CSS */ 
+
+h1 {
+    color:white;
+}
+
+h2 {
+    color:blue;
+}
+h3 {
+    background-color:yellow;
+    color:black;
+}
+h4 {
+    background-color:green;
+    color:yellow;
+}
+
+h5 {
+    color:red;
+}
+
+#divfake {
+    background-color:yellow;
+}
+
+#divreal {
+    background-color:cornflowerblue;
+}
+    
+.spanreal {
+    color: darkorange;
+
+}
+
+.classi {
+    color:red;
+}
+
+.classf {
+    background-color: lightgreen;
+}
+
+a {
+    color:green;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    text-decoration:underline;
+} 
