@@ -1,0 +1,88 @@
+/* CSS */
+.specialp {
+    color: #0000ff;
+    background-color: azure;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+.specialpp {
+    color: #0000ff;
+    background-color: azure;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+  }
+
+#specialid {
+    color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:justify;
+}
+
+#divreal {
+    background-color: chocolate;
+    color: white;
+}
+
+h3 {
+    background-color: rgba(255, 140, 0, 0.317);
+    color: orange;
+    font-weight:normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h4 {
+    background-color: rgba(255, 148, 18, 0.354);
+    color:orange;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.spanreal {
+    background-color: lightslategray;
+    color: darkorange;
+}
+
+h1{
+    color: orange;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+
+h2{
+    color:orange;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+
+a {
+    color:red;
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    color: yellow;
+}
+
+ul {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.textjustify {
+    text-align: justify;
+}
+
+.imgbox {
+    border: 50px solid #000000;
+    padding: 10px 10px 10px 10px;
+    margin: 20px 20px 20px 20px;
+    background-color: #fffb01;
+}
+
+body {
+    background-image: url(d.jpg);
+    background-repeat: repeat;
+    background-position: top left;
+}      
