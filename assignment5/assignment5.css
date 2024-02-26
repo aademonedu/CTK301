@@ -1,0 +1,92 @@
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li{
+    width: 150px;
+    height: 20px;
+    margin-right: 24px;
+    margin-bottom: 20px;
+    background-color: darkblue;
+    padding: 10px;
+    display: inline-block;
+}
+
+nav li a{
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    font-weight: normal;
+}
+
+nav li a:hover{
+    background-color: lightblue;
+}
+
+body {
+    background-image: url(a5bg.png);
+}
+
+
+
+#divreal {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    border-bottom: 3px;
+}
+
+h1 {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    padding: 20px;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom:3px solid black;
+    font-weight:none;
+}
+
+#divfake {
+    color: white;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    background-color: darkblue;
+    padding: 30px; 
+    border-top: 3px solid white;
+    border-left: 3px solid white; 
+    border-right: 3px solid white; 
+    border-bottom: 3px solid white; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+a {
+    color:blue;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:visited {
+    color: blue;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.ugh {
+    text-align: justify;
+}
