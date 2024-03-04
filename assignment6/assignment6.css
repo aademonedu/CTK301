@@ -1,0 +1,116 @@
+
+/* CSS */
+  body {background-image:url(a62.png);}
+
+  header {
+    grid-column:span 12;
+    background-color: black;
+    color: white;
+    padding: 10px;
+  }
+  
+  #wrapper {
+     margin: 1em auto;
+      padding-top: 10px;
+      padding-left: 10px;
+      padding-right: 10px;
+      width: 960px;
+      border: 5px solid black;
+      background-color: white;
+      display:grid;
+      grid-template-columns: repeat(12,1fr)
+    }
+    
+  #box {
+      color:#ff0000
+    }
+
+  header {
+      grid-column:span 12;
+      background-color: black;
+      color: white;
+      padding: 10px;
+    }
+    
+  nav {
+      grid-column: span 3;
+    }
+    
+  nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+    
+  nav li {
+      width: 200px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+    }
+    
+  nav li a {
+      display: block;
+      background-color: red;
+      padding: 1em;
+      color: white;
+      text-decoration: none;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: normal;
+    }
+    
+  .p {
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-weight: bold;
+      text-align: justify;
+      padding-left: 20px;
+      padding-right: 10px;
+    }
+
+  main {
+      grid-column: span 9;
+      border-bottom: black 5px;
+    }
+    
+  main img {
+      width: 400px;
+      float:left;
+      padding: 12px;
+      border: black solid 5px;
+    }
+    
+  aside {
+      grid-column: span 3;
+    }
+    
+  h1 {
+      font-weight: normal;
+      font-family: Arial, Helvetica, sans-serif;
+      border-bottom: 20px;
+    }
+
+  h2 {
+        font-weight:bold;
+        font-family:Arial, Helvetica, sans-serif;
+        border-bottom:3px solid black;
+    }
+
+  a {
+      color:#ff0000;
+      font-weight:bold;
+      text-decoration: none;
+    }
+
+  a:hover {
+      color: blue;
+      text-decoration: underline;
+    }
+
+  footer {
+      text-align: center;
+      font-style: italic;
+      grid-column: span 12;
+      background-color: #ff0000;
+      color: white;
+      border-top: 5px solid black;
+    }
+    
