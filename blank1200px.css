@@ -48,6 +48,13 @@ nav li a {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     grid-column: span 3;
+    transition: background-color 1.0s, width 2.0s, color 5.0s;
+  }
+
+nav a:hover {
+    background-color: black;
+    width: 200px;
+    color: black;
   }
 
 a {
@@ -57,8 +64,7 @@ a {
 }
 
 h1 {
-    font-family: Arial, Helvetica, sans-serif;
-    color: lightblue;
+    font-family: Konkhmer Sleokchher;
     font-weight: normal;
 }
 
@@ -92,3 +98,11 @@ main {
 section img {
     width: 100%;
 }
+
+.textshadowbox {
+    margin: 20px;
+    font-weight: normal;
+    font-size: 17px;
+    color: black;
+    text-shadow: 2px 2px 2px #000; /* x, y, blur, color */
+  }
