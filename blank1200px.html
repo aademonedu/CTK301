@@ -5,39 +5,42 @@
     <title>blad</title>
     <link href="blank1200px.css" rel="stylesheet" type="text/css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-            <link href="https://fonts.googleapis.com/css2?family=Konkhmer+Sleokchher&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Konkhmer+Sleokchher&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"> 
 </head>
 <body>
     <div id="wrapper">
       <div id="one">
-
         <nav>
             <ul>
                 <li><a href="blank1200px.html" target="_blank"> <img src="photosapp.png" alt="Photos" /> </a></li>
-                <li><a href="assignment11v.html" target="_blank"><img src="ytapp.jpg" alt="Video" /></a></li>
-                <li><a href="assignment11a.html" target="_blank"><img src="audioapp.png" alt="Audio" /></a></li>
-                <li><a href="assignment11c.html" target="_blank"><img src="contactapp.jpg" alt="Contact Me" /></a></li>
+                <li><a href="assignment12v.html" target="_blank"><img src="ytapp.jpg" alt="Video" /></a></li>
+                <li><a href="assignment12a.html" target="_blank"><img src="audioapp.png" alt="Audio" /></a></li>
+                <li><a href="assignment12c.html" target="_blank"><img src="contactapp.jpg" alt="Contact Me" /></a></li>
             </ul> 
         </nav>
      </div>
      <div id="two">
         <main>
-       
-            <section>
-                 <img src="112.jpg" alt="Tribute Art To Nyan Neko Sugar Girls"/> <p class="textshadowbox"> Tribute Art (Intro To CTK)</section></p><h1>Photos</h1>
-            </section>
-            <section>
-                <img src="toilet.jpg" alt="Vandalism Assignment"/> <p class="textshadowbox"> Vandalism Assignment (Intro To CTK)</p>
-            </section>
-            <section>
-                <img src="uncomfort.png" alt="Uncomfortable Art Assignment"/> <p class="textshadowbox"> Uncomfortable Art Assignment (Intro To CTK)</p>
-            </section>
-            <section>
-                <img src="gamead.jpg" alt="Game Ad "/> <p class="textshadowbox"> Sell Sheet (Game Design 1)</p>
-            </section>
+            <a href="uncomfort.png" data-fancybox="gallery" data-caption="Out Of Comfort Zone Art (CTK 201)">
+                <img src="uncomfort.png">
+              </a>
+              <a href="toilet.jpg" data-fancybox="gallery" data-caption="Random Act Of Vandalism (CTK 201)">
+                <img src="toilet.jpg">
+              </a>
+              <a href="gamead.jpg" data-fancybox="gallery" data-caption="Sell Sheet for Treasure Hunt (CTK 351)">
+                <img src="gamead.jpg">
+              </a>
+              <a href="112.jpg" data-fancybox="gallery" data-caption="Tribute Project (CTK 201)">
+                <img src="112.jpg">
+              </a>
         </main>
      </div>
     </div>
+    <script>   
+        Fancybox.bind("[data-fancybox]", {});
+     </script>
 </body>
 </html>
