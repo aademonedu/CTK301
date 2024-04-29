@@ -1,0 +1,122 @@
+/* CSS */
+
+html {
+    background-color: black;
+}
+
+#wrapper {
+    margin: 1em auto;
+     width: 960px;
+     background-color: white;
+     display:grid;
+     grid-template-columns: repeat(12,1fr);
+   }
+
+#one {
+    background-image: url(background.png);
+    grid-column: span 3;
+    height: 500px;
+    padding: 40px;
+    border-radius: 10px;
+    border-color: black;
+}
+
+#two {
+    grid-column: span 9;
+}
+
+
+nav {
+    display: inline-block;
+  }
+  
+nav ul {
+    margin-right: 5px;
+    padding: 5px;
+    list-style-type: none;
+    display: inline-block;
+  }
+  
+nav li {
+    width: 200px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  
+nav li a {
+    display: block;
+    padding: 0;
+    color: lightblue;
+    text-decoration: none;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    grid-column: span 3;
+    transition: background-color 1.0s, width 2.0s, color 5.0s;
+  }
+
+nav a:hover {
+    background-color: black;
+    width: 200px;
+    color: black;
+  }
+
+a {
+    color:red;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+h1 {
+    font-family: Konkhmer Sleokchher;
+    font-weight: normal;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1C58A6;
+    border-bottom: 3px solid #1C58A6;
+}
+
+#one img {
+    width: 60px;
+    height: 60px;
+}
+
+img {
+    width: 500px;
+    height: 300px;
+    padding: 10px;
+}
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+section img {
+    width: 100%;
+}
+
+.textshadowbox {
+    margin: 20px;
+    font-weight: normal;
+    font-size: 17px;
+    color: black;
+    text-shadow: 2px 2px 2px #000; /* x, y, blur, color */
+}
+
+#myCarousel {
+    margin-bottom: 24px;
+}
+  
+#myCarousel .f-carousel__slide {
+    text-align: center;
+    padding: 24px;
+    background: #eee;
+}
