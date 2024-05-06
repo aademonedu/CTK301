@@ -1,0 +1,145 @@
+/* CSS */
+
+html {
+    background-color: #000000;
+}
+
+#wrapper {
+    margin: 1em auto;
+     width: 960px;
+     background-color: #eef8fe;
+     display:grid;
+     grid-template-columns: repeat(12,1fr);
+   }
+
+#one {
+    background-image: url(wallp.jpg);
+    grid-column: span 3;
+    height: 500px;
+    padding: 40px;
+    border-radius: 10px;
+    border-color: black;
+}
+
+#two {
+    grid-column: span 9;
+}
+
+
+nav {
+    display: inline-block;
+  }
+  
+nav ul {
+    margin-right: 5px;
+    padding: 5px;
+    list-style-type: none;
+    display: inline-block;
+  }
+  
+nav li {
+    width: 200px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  
+nav li a {
+    display: block;
+    padding: 0;
+    color: lightblue;
+    text-decoration: none;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    grid-column: span 3;
+    transition: background-color 1.0s, width 2.0s, color 5.0s;
+  }
+
+nav a:hover {
+    background-color: black;
+    width: 200px;
+    color: black;
+  }
+
+a {
+    color:black;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: normal;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1C58A6;
+    border-bottom: 3px solid #1C58A6;
+}
+
+#one img {
+    width: 60px;
+    height: 60px;
+}
+
+img {
+    width: 250px;
+    height: 150px;
+    padding: 5px;
+}
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+section img {
+    width: 510px;
+    height: 384px;
+}
+
+.textshadowbox {
+    margin: 20px;
+    font-weight: normal;
+    font-size: 17px;
+    color: black;
+    text-shadow: 2px 2px 2px #000; /* x, y, blur, color */
+}
+
+#myCarousel {
+    margin-bottom: 24px;
+    grid-column: span 2;
+}
+  
+#myCarousel .f-carousel__slide {
+    text-align: center;
+    padding: 24px;
+    background: ##eef8fe;
+
+}
+
+#myCarousel img {
+    width: 100%;
+    height: 500px;
+}
+
+.idk {
+    font-family: sans-serif;
+    size: 36px;
+}
+
+.imgb {
+    width: 551px;
+    height: 306px;
+    box-shadow: 10px 10px 10px #999;
+}
+
+.why {
+    width: 100%;
+}
